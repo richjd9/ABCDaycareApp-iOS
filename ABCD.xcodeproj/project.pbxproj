@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		36C6B4FD1CA467530065CEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B4FC1CA467530065CEA4 /* AppDelegate.swift */; };
-		36C6B4FF1CA467530065CEA4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B4FE1CA467530065CEA4 /* FirstViewController.swift */; };
-		36C6B5011CA467530065CEA4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5001CA467530065CEA4 /* SecondViewController.swift */; };
 		36C6B5041CA467530065CEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C6B5021CA467530065CEA4 /* Main.storyboard */; };
 		36C6B5061CA467530065CEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C6B5051CA467530065CEA4 /* Assets.xcassets */; };
 		36C6B5091CA467530065CEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C6B5071CA467530065CEA4 /* LaunchScreen.storyboard */; };
 		36C6B5141CA467530065CEA4 /* ABCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5131CA467530065CEA4 /* ABCDTests.swift */; };
 		36C6B51F1CA467530065CEA4 /* ABCDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B51E1CA467530065CEA4 /* ABCDUITests.swift */; };
+		36C6B52D1CA468070065CEA4 /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B52C1CA468070065CEA4 /* GroupTableViewController.swift */; };
+		36C6B52F1CA468430065CEA4 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B52E1CA468430065CEA4 /* PeopleTableViewController.swift */; };
+		36C6B5351CA469920065CEA4 /* ChildProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5341CA469920065CEA4 /* ChildProfileViewController.swift */; };
+		36C6B5371CA469980065CEA4 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5361CA469980065CEA4 /* UserProfileViewController.swift */; };
+		36C6B5391CA46A280065CEA4 /* GroupMembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5381CA46A280065CEA4 /* GroupMembersTableViewController.swift */; };
+		36C6B53D1CA46DA00065CEA4 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B53C1CA46DA00065CEA4 /* EventsTableViewController.swift */; };
+		36C6B53F1CA46E360065CEA4 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B53E1CA46E360065CEA4 /* EventViewController.swift */; };
+		36C6B5411CA471A80065CEA4 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5401CA471A80065CEA4 /* MyProfileViewController.swift */; };
+		36C6B5431CA4721A0065CEA4 /* EditMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5421CA4721A0065CEA4 /* EditMyProfileViewController.swift */; };
+		36C6B5451CA5B67A0065CEA4 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5441CA5B67A0065CEA4 /* TagViewController.swift */; };
+		36C6B54B1CA5BB6E0065CEA4 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B54A1CA5BB6E0065CEA4 /* AddGroupViewController.swift */; };
+		36C6B54D1CA5BF260065CEA4 /* GroupForCheckinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B54C1CA5BF260065CEA4 /* GroupForCheckinTableViewController.swift */; };
+		36C6B54F1CA5C2DE0065CEA4 /* SelectGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B54E1CA5C2DE0065CEA4 /* SelectGroupTableViewController.swift */; };
+		36C6B5511CA5C4370065CEA4 /* SelectChildrenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5501CA5C4370065CEA4 /* SelectChildrenTableViewController.swift */; };
+		36C6B5531CA5C5150065CEA4 /* LogEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5521CA5C5150065CEA4 /* LogEventViewController.swift */; };
+		36C6B5551CA5CA260065CEA4 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +51,6 @@
 /* Begin PBXFileReference section */
 		36C6B4F91CA467530065CEA4 /* ABCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C6B4FC1CA467530065CEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36C6B4FE1CA467530065CEA4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		36C6B5001CA467530065CEA4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		36C6B5031CA467530065CEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36C6B5051CA467530065CEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36C6B5081CA467530065CEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,22 @@
 		36C6B51A1CA467530065CEA4 /* ABCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C6B51E1CA467530065CEA4 /* ABCDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABCDUITests.swift; sourceTree = "<group>"; };
 		36C6B5201CA467530065CEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C6B52C1CA468070065CEA4 /* GroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
+		36C6B52E1CA468430065CEA4 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		36C6B5341CA469920065CEA4 /* ChildProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildProfileViewController.swift; sourceTree = "<group>"; };
+		36C6B5361CA469980065CEA4 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		36C6B5381CA46A280065CEA4 /* GroupMembersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMembersTableViewController.swift; sourceTree = "<group>"; };
+		36C6B53C1CA46DA00065CEA4 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsTableViewController.swift; path = ../EventsTableViewController.swift; sourceTree = "<group>"; };
+		36C6B53E1CA46E360065CEA4 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		36C6B5401CA471A80065CEA4 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		36C6B5421CA4721A0065CEA4 /* EditMyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMyProfileViewController.swift; sourceTree = "<group>"; };
+		36C6B5441CA5B67A0065CEA4 /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		36C6B54A1CA5BB6E0065CEA4 /* AddGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
+		36C6B54C1CA5BF260065CEA4 /* GroupForCheckinTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupForCheckinTableViewController.swift; sourceTree = "<group>"; };
+		36C6B54E1CA5C2DE0065CEA4 /* SelectGroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectGroupTableViewController.swift; sourceTree = "<group>"; };
+		36C6B5501CA5C4370065CEA4 /* SelectChildrenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectChildrenTableViewController.swift; sourceTree = "<group>"; };
+		36C6B5521CA5C5150065CEA4 /* LogEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEventViewController.swift; sourceTree = "<group>"; };
+		36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +127,13 @@
 		36C6B4FB1CA467530065CEA4 /* ABCD */ = {
 			isa = PBXGroup;
 			children = (
+				36C6B5491CA5B8A60065CEA4 /* My Profile */,
+				36C6B5481CA5B88A0065CEA4 /* Events */,
+				36C6B5471CA5B8680065CEA4 /* People */,
+				36C6B5461CA5B8440065CEA4 /* Groups */,
 				36C6B4FC1CA467530065CEA4 /* AppDelegate.swift */,
-				36C6B4FE1CA467530065CEA4 /* FirstViewController.swift */,
-				36C6B5001CA467530065CEA4 /* SecondViewController.swift */,
 				36C6B5021CA467530065CEA4 /* Main.storyboard */,
+				36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */,
 				36C6B5051CA467530065CEA4 /* Assets.xcassets */,
 				36C6B5071CA467530065CEA4 /* LaunchScreen.storyboard */,
 				36C6B50A1CA467530065CEA4 /* Info.plist */,
@@ -126,6 +157,49 @@
 				36C6B5201CA467530065CEA4 /* Info.plist */,
 			);
 			path = ABCDUITests;
+			sourceTree = "<group>";
+		};
+		36C6B5461CA5B8440065CEA4 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				36C6B54E1CA5C2DE0065CEA4 /* SelectGroupTableViewController.swift */,
+				36C6B54C1CA5BF260065CEA4 /* GroupForCheckinTableViewController.swift */,
+				36C6B54A1CA5BB6E0065CEA4 /* AddGroupViewController.swift */,
+				36C6B5381CA46A280065CEA4 /* GroupMembersTableViewController.swift */,
+				36C6B52C1CA468070065CEA4 /* GroupTableViewController.swift */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		36C6B5471CA5B8680065CEA4 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				36C6B5441CA5B67A0065CEA4 /* TagViewController.swift */,
+				36C6B5501CA5C4370065CEA4 /* SelectChildrenTableViewController.swift */,
+				36C6B5341CA469920065CEA4 /* ChildProfileViewController.swift */,
+				36C6B5361CA469980065CEA4 /* UserProfileViewController.swift */,
+				36C6B52E1CA468430065CEA4 /* PeopleTableViewController.swift */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
+		36C6B5481CA5B88A0065CEA4 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				36C6B53C1CA46DA00065CEA4 /* EventsTableViewController.swift */,
+				36C6B5521CA5C5150065CEA4 /* LogEventViewController.swift */,
+				36C6B53E1CA46E360065CEA4 /* EventViewController.swift */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		36C6B5491CA5B8A60065CEA4 /* My Profile */ = {
+			isa = PBXGroup;
+			children = (
+				36C6B5421CA4721A0065CEA4 /* EditMyProfileViewController.swift */,
+				36C6B5401CA471A80065CEA4 /* MyProfileViewController.swift */,
+			);
+			name = "My Profile";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +333,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C6B5011CA467530065CEA4 /* SecondViewController.swift in Sources */,
+				36C6B5551CA5CA260065CEA4 /* CheckOutViewController.swift in Sources */,
+				36C6B5431CA4721A0065CEA4 /* EditMyProfileViewController.swift in Sources */,
+				36C6B5411CA471A80065CEA4 /* MyProfileViewController.swift in Sources */,
 				36C6B4FD1CA467530065CEA4 /* AppDelegate.swift in Sources */,
-				36C6B4FF1CA467530065CEA4 /* FirstViewController.swift in Sources */,
+				36C6B5371CA469980065CEA4 /* UserProfileViewController.swift in Sources */,
+				36C6B53D1CA46DA00065CEA4 /* EventsTableViewController.swift in Sources */,
+				36C6B54B1CA5BB6E0065CEA4 /* AddGroupViewController.swift in Sources */,
+				36C6B52F1CA468430065CEA4 /* PeopleTableViewController.swift in Sources */,
+				36C6B53F1CA46E360065CEA4 /* EventViewController.swift in Sources */,
+				36C6B54D1CA5BF260065CEA4 /* GroupForCheckinTableViewController.swift in Sources */,
+				36C6B54F1CA5C2DE0065CEA4 /* SelectGroupTableViewController.swift in Sources */,
+				36C6B5531CA5C5150065CEA4 /* LogEventViewController.swift in Sources */,
+				36C6B5351CA469920065CEA4 /* ChildProfileViewController.swift in Sources */,
+				36C6B5451CA5B67A0065CEA4 /* TagViewController.swift in Sources */,
+				36C6B52D1CA468070065CEA4 /* GroupTableViewController.swift in Sources */,
+				36C6B5511CA5C4370065CEA4 /* SelectChildrenTableViewController.swift in Sources */,
+				36C6B5391CA46A280065CEA4 /* GroupMembersTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
