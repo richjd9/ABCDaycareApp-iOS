@@ -18,7 +18,6 @@
 		36C6B5351CA469920065CEA4 /* ChildProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5341CA469920065CEA4 /* ChildProfileViewController.swift */; };
 		36C6B5371CA469980065CEA4 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5361CA469980065CEA4 /* UserProfileViewController.swift */; };
 		36C6B5391CA46A280065CEA4 /* GroupMembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5381CA46A280065CEA4 /* GroupMembersTableViewController.swift */; };
-		36C6B53D1CA46DA00065CEA4 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B53C1CA46DA00065CEA4 /* EventsTableViewController.swift */; };
 		36C6B53F1CA46E360065CEA4 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B53E1CA46E360065CEA4 /* EventViewController.swift */; };
 		36C6B5411CA471A80065CEA4 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5401CA471A80065CEA4 /* MyProfileViewController.swift */; };
 		36C6B5431CA4721A0065CEA4 /* EditMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5421CA4721A0065CEA4 /* EditMyProfileViewController.swift */; };
@@ -29,6 +28,7 @@
 		36C6B5511CA5C4370065CEA4 /* SelectChildrenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5501CA5C4370065CEA4 /* SelectChildrenTableViewController.swift */; };
 		36C6B5531CA5C5150065CEA4 /* LogEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5521CA5C5150065CEA4 /* LogEventViewController.swift */; };
 		36C6B5551CA5CA260065CEA4 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */; };
+		36E226AD1CA5CCC300630A5C /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E226AC1CA5CCC300630A5C /* EventsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,6 @@
 		36C6B5341CA469920065CEA4 /* ChildProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildProfileViewController.swift; sourceTree = "<group>"; };
 		36C6B5361CA469980065CEA4 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		36C6B5381CA46A280065CEA4 /* GroupMembersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMembersTableViewController.swift; sourceTree = "<group>"; };
-		36C6B53C1CA46DA00065CEA4 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsTableViewController.swift; path = ../EventsTableViewController.swift; sourceTree = "<group>"; };
 		36C6B53E1CA46E360065CEA4 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		36C6B5401CA471A80065CEA4 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		36C6B5421CA4721A0065CEA4 /* EditMyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMyProfileViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +76,7 @@
 		36C6B5501CA5C4370065CEA4 /* SelectChildrenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectChildrenTableViewController.swift; sourceTree = "<group>"; };
 		36C6B5521CA5C5150065CEA4 /* LogEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEventViewController.swift; sourceTree = "<group>"; };
 		36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
+		36E226AC1CA5CCC300630A5C /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,6 @@
 				36C6B5461CA5B8440065CEA4 /* Groups */,
 				36C6B4FC1CA467530065CEA4 /* AppDelegate.swift */,
 				36C6B5021CA467530065CEA4 /* Main.storyboard */,
-				36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */,
 				36C6B5051CA467530065CEA4 /* Assets.xcassets */,
 				36C6B5071CA467530065CEA4 /* LaunchScreen.storyboard */,
 				36C6B50A1CA467530065CEA4 /* Info.plist */,
@@ -178,6 +177,7 @@
 				36C6B5501CA5C4370065CEA4 /* SelectChildrenTableViewController.swift */,
 				36C6B5341CA469920065CEA4 /* ChildProfileViewController.swift */,
 				36C6B5361CA469980065CEA4 /* UserProfileViewController.swift */,
+				36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */,
 				36C6B52E1CA468430065CEA4 /* PeopleTableViewController.swift */,
 			);
 			name = People;
@@ -186,7 +186,7 @@
 		36C6B5481CA5B88A0065CEA4 /* Events */ = {
 			isa = PBXGroup;
 			children = (
-				36C6B53C1CA46DA00065CEA4 /* EventsTableViewController.swift */,
+				36E226AC1CA5CCC300630A5C /* EventsTableViewController.swift */,
 				36C6B5521CA5C5150065CEA4 /* LogEventViewController.swift */,
 				36C6B53E1CA46E360065CEA4 /* EventViewController.swift */,
 			);
@@ -338,7 +338,7 @@
 				36C6B5411CA471A80065CEA4 /* MyProfileViewController.swift in Sources */,
 				36C6B4FD1CA467530065CEA4 /* AppDelegate.swift in Sources */,
 				36C6B5371CA469980065CEA4 /* UserProfileViewController.swift in Sources */,
-				36C6B53D1CA46DA00065CEA4 /* EventsTableViewController.swift in Sources */,
+				36E226AD1CA5CCC300630A5C /* EventsTableViewController.swift in Sources */,
 				36C6B54B1CA5BB6E0065CEA4 /* AddGroupViewController.swift in Sources */,
 				36C6B52F1CA468430065CEA4 /* PeopleTableViewController.swift in Sources */,
 				36C6B53F1CA46E360065CEA4 /* EventViewController.swift in Sources */,
@@ -574,6 +574,7 @@
 				36C6B5251CA467530065CEA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36C6B5261CA467530065CEA4 /* Build configuration list for PBXNativeTarget "ABCDTests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +583,7 @@
 				36C6B5281CA467530065CEA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36C6B5291CA467530065CEA4 /* Build configuration list for PBXNativeTarget "ABCDUITests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +592,7 @@
 				36C6B52B1CA467530065CEA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
