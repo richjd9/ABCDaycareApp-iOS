@@ -20,7 +20,6 @@
 		36C6B5391CA46A280065CEA4 /* GroupMembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5381CA46A280065CEA4 /* GroupMembersTableViewController.swift */; };
 		36C6B53F1CA46E360065CEA4 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B53E1CA46E360065CEA4 /* EventViewController.swift */; };
 		36C6B5411CA471A80065CEA4 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5401CA471A80065CEA4 /* MyProfileViewController.swift */; };
-		36C6B5431CA4721A0065CEA4 /* EditMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5421CA4721A0065CEA4 /* EditMyProfileViewController.swift */; };
 		36C6B5451CA5B67A0065CEA4 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5441CA5B67A0065CEA4 /* TagViewController.swift */; };
 		36C6B54B1CA5BB6E0065CEA4 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B54A1CA5BB6E0065CEA4 /* AddGroupViewController.swift */; };
 		36C6B54D1CA5BF260065CEA4 /* GroupForCheckinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B54C1CA5BF260065CEA4 /* GroupForCheckinTableViewController.swift */; };
@@ -68,7 +67,6 @@
 		36C6B5381CA46A280065CEA4 /* GroupMembersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMembersTableViewController.swift; sourceTree = "<group>"; };
 		36C6B53E1CA46E360065CEA4 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		36C6B5401CA471A80065CEA4 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
-		36C6B5421CA4721A0065CEA4 /* EditMyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMyProfileViewController.swift; sourceTree = "<group>"; };
 		36C6B5441CA5B67A0065CEA4 /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
 		36C6B54A1CA5BB6E0065CEA4 /* AddGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
 		36C6B54C1CA5BF260065CEA4 /* GroupForCheckinTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupForCheckinTableViewController.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 		36C6B5491CA5B8A60065CEA4 /* My Profile */ = {
 			isa = PBXGroup;
 			children = (
-				36C6B5421CA4721A0065CEA4 /* EditMyProfileViewController.swift */,
 				36C6B5401CA471A80065CEA4 /* MyProfileViewController.swift */,
 			);
 			name = "My Profile";
@@ -334,7 +331,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C6B5551CA5CA260065CEA4 /* CheckOutViewController.swift in Sources */,
-				36C6B5431CA4721A0065CEA4 /* EditMyProfileViewController.swift in Sources */,
 				36C6B5411CA471A80065CEA4 /* MyProfileViewController.swift in Sources */,
 				36C6B4FD1CA467530065CEA4 /* AppDelegate.swift in Sources */,
 				36C6B5371CA469980065CEA4 /* UserProfileViewController.swift in Sources */,

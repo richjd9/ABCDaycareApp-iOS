@@ -16,12 +16,8 @@ class ChildProfileViewController: UIViewController {
     @IBOutlet var childAge: UILabel!
     @IBOutlet var childGender: UILabel!
     @IBOutlet var childProfilePicture: UIImageView!
-    @IBOutlet var tagsTableViewCell: UITableViewCell!
-    @IBOutlet var tagsTableView: UITableView!
-    @IBOutlet var eventsTableViewCell: UITableViewCell!
-    @IBOutlet var eventsTableView: UITableView!
-    
-    @IBOutlet var infoTextView: UITextView!
+
+    @IBOutlet var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
