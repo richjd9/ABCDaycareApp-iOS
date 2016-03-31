@@ -28,6 +28,7 @@
 		36C6B5531CA5C5150065CEA4 /* LogEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5521CA5C5150065CEA4 /* LogEventViewController.swift */; };
 		36C6B5551CA5CA260065CEA4 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */; };
 		36E226AD1CA5CCC300630A5C /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E226AC1CA5CCC300630A5C /* EventsTableViewController.swift */; };
+		E6FB8EC51CADA58C00DB447A /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = E6FB8EC41CADA58C00DB447A /* test.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		36C6B5521CA5C5150065CEA4 /* LogEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEventViewController.swift; sourceTree = "<group>"; };
 		36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
 		36E226AC1CA5CCC300630A5C /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		E6FB8EC41CADA58C00DB447A /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				36C6B5051CA467530065CEA4 /* Assets.xcassets */,
 				36C6B5071CA467530065CEA4 /* LaunchScreen.storyboard */,
 				36C6B50A1CA467530065CEA4 /* Info.plist */,
+				E6FB8EC41CADA58C00DB447A /* test.txt */,
 			);
 			path = ABCD;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			files = (
 				36C6B5091CA467530065CEA4 /* LaunchScreen.storyboard in Resources */,
 				36C6B5061CA467530065CEA4 /* Assets.xcassets in Resources */,
+				E6FB8EC51CADA58C00DB447A /* test.txt in Resources */,
 				36C6B5041CA467530065CEA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
