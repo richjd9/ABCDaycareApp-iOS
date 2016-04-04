@@ -18,6 +18,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+//  
+//  func applicationDidFinishLaunching(application: UIApplication) {
+//    var movieUrl = NSURL()
+//    let bundle = NSBundle.mainBundle()
+//    
+//    let moviePath = bundle.pathForResource("SplashMovie", ofType: "mp4")
+//    if moviePath != nil {
+//      movieUrl = NSURL.fileURLWithPath(moviePath!)
+//    }
+//    
+//    var mMoviePlayer = MPMoviePl
+//  }
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
