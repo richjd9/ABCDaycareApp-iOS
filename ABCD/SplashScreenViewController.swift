@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import VideoSplashKit
+import VideoSplashKit 
 
 
 class SplashScreenViewController: VideoSplashViewController {
@@ -19,11 +19,15 @@ class SplashScreenViewController: VideoSplashViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    
     let url = NSURL.fileURLWithPath(NSBundle.mainBundle().pathForResource("SplashVideo", ofType: "mp4")!)
     self.videoFrame = view.frame
     self.fillMode = .ResizeAspectFill
     self.alwaysRepeat = true
     self.sound = true
+    
+    //The Video 
     self.startTime = 72.0
     self.duration = 10.0
     self.alpha = 0.7
