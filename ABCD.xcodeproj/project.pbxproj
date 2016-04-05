@@ -28,6 +28,8 @@
 		36C6B5531CA5C5150065CEA4 /* LogEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5521CA5C5150065CEA4 /* LogEventViewController.swift */; };
 		36C6B5551CA5CA260065CEA4 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B5541CA5CA260065CEA4 /* CheckOutViewController.swift */; };
 		36E226AD1CA5CCC300630A5C /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E226AC1CA5CCC300630A5C /* EventsTableViewController.swift */; };
+		C18960A51CB445CA00B35914 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C18960A41CB445CA00B35914 /* Logo.png */; };
+		C18960A61CB44A9E00B35914 /* SplashVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C18EB0A51CB441B600536DAD /* SplashVideo.mp4 */; };
 		C18EB0A21CB43EFC00536DAD /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18EB0A11CB43EFC00536DAD /* SplashScreenViewController.swift */; };
 		FF9028110BE22E9674B21B21 /* Pods_ABCD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992FFE6A16D65202193B02B0 /* Pods_ABCD.framework */; };
 /* End PBXBuildFile section */
@@ -79,8 +81,9 @@
 		36E226AC1CA5CCC300630A5C /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		992FFE6A16D65202193B02B0 /* Pods_ABCD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABCD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8A787CE428D5908623DFF4 /* Pods-ABCD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCD.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABCD/Pods-ABCD.release.xcconfig"; sourceTree = "<group>"; };
+		C18960A41CB445CA00B35914 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		C18EB0A11CB43EFC00536DAD /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
-		C18EB0A41CB43F4800536DAD /* SplashVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SplashVideo.mp4; sourceTree = "<group>"; };
+		C18EB0A51CB441B600536DAD /* SplashVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SplashVideo.mp4; sourceTree = "<group>"; };
 		C6BEF5A454E5777B67D06E95 /* Pods-ABCD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABCD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABCD/Pods-ABCD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,7 +147,6 @@
 		36C6B4FB1CA467530065CEA4 /* ABCD */ = {
 			isa = PBXGroup;
 			children = (
-				C18EB0A41CB43F4800536DAD /* SplashVideo.mp4 */,
 				C18EB0A31CB43F2300536DAD /* Resources */,
 				36C6B5491CA5B8A60065CEA4 /* My Profile */,
 				36C6B5481CA5B88A0065CEA4 /* Events */,
@@ -232,6 +234,8 @@
 		C18EB0A31CB43F2300536DAD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C18960A41CB445CA00B35914 /* Logo.png */,
+				C18EB0A51CB441B600536DAD /* SplashVideo.mp4 */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -343,7 +347,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18960A51CB445CA00B35914 /* Logo.png in Resources */,
 				36C6B5091CA467530065CEA4 /* LaunchScreen.storyboard in Resources */,
+				C18960A61CB44A9E00B35914 /* SplashVideo.mp4 in Resources */,
 				36C6B5061CA467530065CEA4 /* Assets.xcassets in Resources */,
 				36C6B5041CA467530065CEA4 /* Main.storyboard in Resources */,
 			);

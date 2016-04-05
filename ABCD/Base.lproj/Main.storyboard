@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Groups-->
@@ -297,9 +298,6 @@
                                         <rect key="frame" x="159" y="118" width="133" height="30"/>
                                         <state key="normal" title="Check-In/Checkout"/>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKo-uh-uRO">
-                                        <rect key="frame" x="8" y="8" width="145" height="145"/>
-                                    </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Checked in, currently in group X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMn-Jf-0Ni">
                                         <rect key="frame" x="159" y="66" width="246" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -320,6 +318,9 @@
                                             </tableViewCell>
                                         </prototypes>
                                     </tableView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKo-uh-uRO">
+                                        <rect key="frame" x="8" y="8" width="145" height="145"/>
+                                    </imageView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -551,7 +552,44 @@
                     <view key="view" contentMode="scaleToFill" id="spa-U8-2UC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="RyY-q4-UyY">
+                                <rect key="frame" x="135" y="20" width="330" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="330" id="3Ru-Pj-PjL"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FgO-9T-GCx">
+                                <rect key="frame" x="20" y="452" width="560" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="BfB-31-8uh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Sign-In">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signIn:" destination="MRK-5r-fnN" eventType="touchUpInside" id="VPG-6d-5vb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABCDaycare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iyc-08-g99">
+                                <rect key="frame" x="186" y="276" width="229" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FgO-9T-GCx" firstAttribute="centerX" secondItem="spa-U8-2UC" secondAttribute="centerX" id="03p-ky-7Xk"/>
+                            <constraint firstItem="FgO-9T-GCx" firstAttribute="leading" secondItem="spa-U8-2UC" secondAttribute="leadingMargin" id="128-br-m82"/>
+                            <constraint firstItem="Iyc-08-g99" firstAttribute="centerX" secondItem="spa-U8-2UC" secondAttribute="centerX" id="JlZ-t7-RNF"/>
+                            <constraint firstItem="Iyc-08-g99" firstAttribute="centerY" secondItem="spa-U8-2UC" secondAttribute="centerY" id="VK1-Hb-uaQ"/>
+                            <constraint firstItem="RyY-q4-UyY" firstAttribute="centerX" secondItem="spa-U8-2UC" secondAttribute="centerX" id="VlP-jc-o95"/>
+                            <constraint firstItem="Iyc-08-g99" firstAttribute="top" secondItem="RyY-q4-UyY" secondAttribute="bottom" constant="8" symbolic="YES" id="far-hr-3RR"/>
+                            <constraint firstItem="9NL-DW-WXU" firstAttribute="top" secondItem="FgO-9T-GCx" secondAttribute="bottom" constant="77" id="gXV-yW-xSB"/>
+                            <constraint firstItem="RyY-q4-UyY" firstAttribute="top" secondItem="PtI-lQ-0jp" secondAttribute="bottom" id="sPe-8F-9M7"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="Slu-wj-Nip" kind="presentation" identifier="mainViewController" id="i3c-db-kYG"/>
@@ -929,6 +967,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Logo.png" width="641" height="658"/>
         <image name="User Group Filled-50" width="50" height="50"/>
         <image name="first" width="30" height="30"/>
     </resources>
