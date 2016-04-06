@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36418AF41CB57FD600D1E046 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36418AF31CB57FD600D1E046 /* LoginViewController.swift */; };
+		36418AF61CB581D800D1E046 /* groups.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36418AF51CB581D800D1E046 /* groups.txt */; };
 		36C6B4FD1CA467530065CEA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B4FC1CA467530065CEA4 /* AppDelegate.swift */; };
 		36C6B5041CA467530065CEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C6B5021CA467530065CEA4 /* Main.storyboard */; };
 		36C6B5061CA467530065CEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C6B5051CA467530065CEA4 /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36418AF31CB57FD600D1E046 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		36418AF51CB581D800D1E046 /* groups.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = groups.txt; path = ../groups.txt; sourceTree = "<group>"; };
 		36C6B4F91CA467530065CEA4 /* ABCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C6B4FC1CA467530065CEA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C6B5031CA467530065CEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 		36C6B4FB1CA467530065CEA4 /* ABCD */ = {
 			isa = PBXGroup;
 			children = (
+				36418AF51CB581D800D1E046 /* groups.txt */,
 				C18EB0A31CB43F2300536DAD /* Resources */,
 				36C6B5491CA5B8A60065CEA4 /* My Profile */,
 				36C6B5481CA5B88A0065CEA4 /* Events */,
@@ -158,6 +163,7 @@
 				36C6B5071CA467530065CEA4 /* LaunchScreen.storyboard */,
 				36C6B50A1CA467530065CEA4 /* Info.plist */,
 				C18EB0A11CB43EFC00536DAD /* SplashScreenViewController.swift */,
+				36418AF31CB57FD600D1E046 /* LoginViewController.swift */,
 			);
 			path = ABCD;
 			sourceTree = "<group>";
@@ -351,6 +357,7 @@
 				36C6B5091CA467530065CEA4 /* LaunchScreen.storyboard in Resources */,
 				C18960A61CB44A9E00B35914 /* SplashVideo.mp4 in Resources */,
 				36C6B5061CA467530065CEA4 /* Assets.xcassets in Resources */,
+				36418AF61CB581D800D1E046 /* groups.txt in Resources */,
 				36C6B5041CA467530065CEA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36418AF41CB57FD600D1E046 /* LoginViewController.swift in Sources */,
 				36C6B5551CA5CA260065CEA4 /* CheckOutViewController.swift in Sources */,
 				36C6B5411CA471A80065CEA4 /* MyProfileViewController.swift in Sources */,
 				36C6B4FD1CA467530065CEA4 /* AppDelegate.swift in Sources */,

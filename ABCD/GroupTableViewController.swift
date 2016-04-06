@@ -9,7 +9,7 @@
 import UIKit
 
 class GroupTableViewController: UITableViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

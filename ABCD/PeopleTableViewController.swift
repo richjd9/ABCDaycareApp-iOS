@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class PeopleTableViewController: UITableViewController {
 
+    let jsonData = JSON(data: "[{\"id\":0,\"first_name\":\"John\",\"last_name\":\"Doe\",\"current_group\":0},{\"id\":1,\"first_name\":\"Jane\",\"last_name\":\"Doe\",\"current_group\":1},{\"id\":2,\"first_name\":\"Hillary\",\"last_name\":\"Clinton\",\"current_group\":2},{\"id\":3,\"first_name\":\"Donald\",\"last_name\":\"Trump\",\"current_group\":0},{\"id\":4,\"first_name\":\"Bernie\",\"last_name\":\"Sanders\",\"current_group\":1}]".dataUsingEncoding(NSUTF8StringEncoding)!)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -28,24 +31,26 @@ class PeopleTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return jsonData.arrayValue.count
     }
 
-    /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let rowNumber: Int = indexPath.row    // Identify the row number
 
-        // Configure the cell...
+        let cell = tableView.dequeueReusableCellWithIdentifier("personCell", forIndexPath: indexPath)
+
+        let nameLastFirst = jsonData[rowNumber]["last_name"].stringValue + " " + jsonData[rowNumber]["first_name"].stringValue
+        let currentGroup = "Current Group: " + jsonData[rowNumber]["current_group"].stringValue
+        
+        cell.textLabel!.text = nameLastFirst
+        cell.detailTextLabel!.text = currentGroup
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
